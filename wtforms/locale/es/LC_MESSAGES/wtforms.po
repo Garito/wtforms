@@ -30,20 +30,20 @@ msgstr "El campo debe ser igual a %(other_name)s."
 #, python-format
 msgid "Field must be at least %(min)d character long."
 msgid_plural "Field must be at least %(min)d characters long."
-msgstr[0] "El campo debe tener al menos %(min)d caracter."
-msgstr[1] "El campo debe tener al menos %(min)d caracteres."
+msgstr[0] "El campo debe tener al menos %(min)d carácter."
+msgstr[1] "El campo debe tener al menos %(min)d carácteres."
 
 #: wtforms/validators.py:97
 #, python-format
 msgid "Field cannot be longer than %(max)d character."
 msgid_plural "Field cannot be longer than %(max)d characters."
-msgstr[0] "El campo no puede tener más de %(max)d caracter."
-msgstr[1] "El campo no puede tener más de %(max)d caracteres."
+msgstr[0] "El campo no puede tener más de %(max)d carácter."
+msgstr[1] "El campo no puede tener más de %(max)d carácteres."
 
 #: wtforms/validators.py:100
 #, python-format
 msgid "Field must be between %(min)d and %(max)d characters long."
-msgstr "El campo debe tener entre %(min)d y %(max)d caracteres."
+msgstr "El campo debe tener entre %(min)d y %(max)d carácteres."
 
 #: wtforms/validators.py:135
 #, python-format
@@ -126,11 +126,11 @@ msgstr "El token CSRF ha expirado"
 
 #: wtforms/ext/dateutil/fields.py:50
 msgid "Please input a date/time value"
-msgstr "Por favor, introduzca una fecha"
+msgstr "Por favor, introduzca una fecha/hora"
 
 #: wtforms/ext/dateutil/fields.py:62
 msgid "Invalid date/time input"
-msgstr "Fecha de entrada incorrecta"
+msgstr "Fecha/hora incorrecta"
 
 #: wtforms/ext/sqlalchemy/validators.py:33
 msgid "Already exists."
@@ -166,7 +166,7 @@ msgstr "No es un número de punto flotante válido"
 #: wtforms/fields/core.py:632
 #, fuzzy
 msgid "Not a valid datetime value"
-msgstr "No es una fecha con hora válida"
+msgstr "No es una fecha/hora válida"
 
 #: wtforms/fields/core.py:649
 #, fuzzy
