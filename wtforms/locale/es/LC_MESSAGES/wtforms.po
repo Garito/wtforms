@@ -24,7 +24,7 @@ msgstr "Nombre de campo inválido '%s'."
 #: wtforms/validators.py:62
 #, python-format
 msgid "Field must be equal to %(other_name)s."
-msgstr "El campo debe coincidir con %(other_name)s."
+msgstr "El campo debe ser igual a %(other_name)s."
 
 #: wtforms/validators.py:94
 #, python-format
@@ -114,11 +114,11 @@ msgstr "El token CSRF es incorrecto"
 
 #: wtforms/ext/csrf/session.py:57
 msgid "CSRF token missing"
-msgstr "El token CSRF falta"
+msgstr "Falta el token CSRF"
 
 #: wtforms/ext/csrf/session.py:65
 msgid "CSRF failed"
-msgstr "Fallo CSRF"
+msgstr "CSRF ha fallado"
 
 #: wtforms/ext/csrf/session.py:70
 msgid "CSRF token expired"
@@ -134,7 +134,7 @@ msgstr "Fecha de entrada incorrecta"
 
 #: wtforms/ext/sqlalchemy/validators.py:33
 msgid "Already exists."
-msgstr ""
+msgstr "Ya existe."
 
 #: wtforms/fields/core.py:412
 msgid "Invalid Choice: could not coerce"
@@ -166,10 +166,10 @@ msgstr "No es un número de punto flotante válido"
 #: wtforms/fields/core.py:632
 #, fuzzy
 msgid "Not a valid datetime value"
-msgstr "No es un numero decimal válido"
+msgstr "No es una fecha con hora válida"
 
 #: wtforms/fields/core.py:649
 #, fuzzy
 msgid "Not a valid date value"
-msgstr "No es un número de punto flotante válido"
+msgstr "No es una fecha válida"
 
